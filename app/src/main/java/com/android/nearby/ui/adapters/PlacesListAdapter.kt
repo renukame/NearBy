@@ -1,4 +1,4 @@
-package com.adyen.android.assignment.ui.adapters
+package com.android.nearby.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,10 +6,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.adyen.android.assignment.R
-import com.adyen.android.assignment.data.model.Category
-import com.adyen.android.assignment.data.model.Places
-import com.adyen.android.assignment.databinding.ItemPlacesBinding
+import com.android.nearby.R
+import com.android.nearby.data.model.Category
+import com.android.nearby.data.model.Places
+import com.android.nearby.databinding.ItemPlacesBinding
 import com.bumptech.glide.Glide
 import javax.inject.Inject
 import com.bumptech.glide.load.engine.DiskCacheStrategy

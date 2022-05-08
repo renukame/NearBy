@@ -1,6 +1,7 @@
-package com.adyen.android.assignment.di.module
+package com.android.nearby.di.module
 
-import com.adyen.android.assignment.ui.MainActivity
+
+import com.android.nearby.ui.MainActivity
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

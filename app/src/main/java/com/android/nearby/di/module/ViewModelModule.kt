@@ -1,10 +1,10 @@
-package com.adyen.android.assignment.di.module
+package com.android.nearby.di.module
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.adyen.android.assignment.ui.viewmodel.MainViewModel
-import com.adyen.android.assignment.ui.viewmodel.ViewModelFactory
-import com.adyen.android.assignment.ui.viewmodel.ViewModelKey
+import com.android.nearby.ui.viewmodel.MainViewModel
+import com.android.nearby.ui.viewmodel.ViewModelFactory
+import com.android.nearby.ui.viewmodel.ViewModelKey
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap

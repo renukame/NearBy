@@ -1,4 +1,4 @@
-package com.adyen.android.assignment.utils
+package com.android.nearby.utils
 
 import android.Manifest
 import android.app.Application

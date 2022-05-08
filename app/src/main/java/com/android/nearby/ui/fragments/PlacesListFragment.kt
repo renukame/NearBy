@@ -1,4 +1,4 @@
-package com.adyen.android.assignment.ui.fragments
+package com.android.nearby.ui.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,10 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.adyen.android.assignment.data.APIResult
-import com.adyen.android.assignment.databinding.FragmentPlacesListBinding
-import com.adyen.android.assignment.ui.adapters.PlacesListAdapter
-import com.adyen.android.assignment.ui.viewmodel.MainViewModel
+import com.android.nearby.data.APIResult
+import com.android.nearby.databinding.FragmentPlacesListBinding
+import com.android.nearby.ui.adapters.PlacesListAdapter
+import com.android.nearby.ui.viewmodel.MainViewModel
 import dagger.android.support.AndroidSupportInjection
 import javax.inject.Inject
 

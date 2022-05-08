@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NearBy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="open_settings">Open Settings</string>
+    <string name="setting_perm_info_text">Enable Location</string>
+    <string name="setting_perm_info_message">To Explore Features of the app,Please enable location in Settings</string>
+</resources>

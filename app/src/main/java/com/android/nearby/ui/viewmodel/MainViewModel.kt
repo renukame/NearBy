@@ -1,13 +1,14 @@
-package com.adyen.android.assignment.ui.viewmodel
+package com.android.nearby.ui.viewmodel
 
 import android.location.Location
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.adyen.android.assignment.data.APIResult
-import com.adyen.android.assignment.data.Repository
-import com.adyen.android.assignment.data.model.Places
+import com.android.nearby.data.APIResult
+import com.android.nearby.data.Repository
+import com.android.nearby.data.model.Places
+
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import javax.inject.Inject

@@ -1,6 +1,6 @@
-package com.adyen.android.assignment.di.module
+package com.android.nearby.di.module
 
-import com.adyen.android.assignment.ui.fragments.PlacesListFragment
+import com.android.nearby.ui.fragments.PlacesListFragment
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

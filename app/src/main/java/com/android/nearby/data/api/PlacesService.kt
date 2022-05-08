@@ -1,7 +1,8 @@
-package com.adyen.android.assignment.data.api
+package com.android.nearby.data.api
 
 
-import com.adyen.android.assignment.data.model.ResponseWrapper
+
+import com.android.nearby.data.model.ResponseWrapper
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.QueryMap

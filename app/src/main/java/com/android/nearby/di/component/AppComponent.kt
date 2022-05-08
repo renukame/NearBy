@@ -1,8 +1,9 @@
-package com.adyen.android.assignment.di.component
+package com.android.nearby.di.component
 
 import android.app.Application
-import com.adyen.android.assignment.PlacesApplication
-import com.adyen.android.assignment.di.module.*
+import com.android.nearby.PlacesApplication
+import com.android.nearby.di.module.*
+
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.support.AndroidSupportInjectionModule

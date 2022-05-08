@@ -1,4 +1,4 @@
-package com.adyen.android.assignment.data.model
+package com.android.nearby.data.model
 
 import com.google.gson.annotations.SerializedName
 

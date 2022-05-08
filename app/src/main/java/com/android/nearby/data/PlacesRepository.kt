@@ -1,9 +1,9 @@
-package com.adyen.android.assignment.data
+package com.android.nearby.data
 
 import android.location.Location
-import com.adyen.android.assignment.data.api.VenueRecommendationsQueryBuilder
-import com.adyen.android.assignment.data.api.PlacesService
-import com.adyen.android.assignment.data.model.Places
+import com.android.nearby.data.api.PlacesService
+import com.android.nearby.data.api.VenueRecommendationsQueryBuilder
+import com.android.nearby.data.model.Places
 import java.lang.Exception
 import javax.inject.Inject
 

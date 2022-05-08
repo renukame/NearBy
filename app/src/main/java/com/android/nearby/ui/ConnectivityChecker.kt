@@ -1,4 +1,4 @@
-package com.adyen.android.assignment.ui
+package com.android.nearby.ui
 
 import android.net.*
 import androidx.lifecycle.*

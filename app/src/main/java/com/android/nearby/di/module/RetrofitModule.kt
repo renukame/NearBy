@@ -1,8 +1,8 @@
-package com.adyen.android.assignment.di.module
+package com.android.nearby.di.module
 
 
-import com.adyen.android.assignment.BuildConfig
-import com.adyen.android.assignment.data.api.PlacesService
+import com.android.nearby.BuildConfig
+import com.android.nearby.data.api.PlacesService
 import dagger.Module
 import dagger.Provides
 import okhttp3.Interceptor
@@ -25,7 +25,8 @@ class RetrofitModule {
     @Singleton
     fun apiRequestInterceptor(): Interceptor {
         return Interceptor { chain ->
-            val requestBuilder = chain.request().newBuilder().addHeader("Authorization", BuildConfig.API_KEY)
+            //TODO API KEY
+            val requestBuilder = chain.request().newBuilder().addHeader("Authorization", "")
             val request = requestBuilder.build()
             chain.proceed(request)
         }

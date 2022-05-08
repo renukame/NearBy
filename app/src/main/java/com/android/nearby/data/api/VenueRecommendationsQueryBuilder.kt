@@ -1,4 +1,4 @@
-package com.adyen.android.assignment.data.api
+package com.android.nearby.data.api
 
 import javax.inject.Inject
 

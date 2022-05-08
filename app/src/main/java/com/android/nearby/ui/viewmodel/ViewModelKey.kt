@@ -1,4 +1,4 @@
-package com.adyen.android.assignment.ui.viewmodel
+package com.android.nearby.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import dagger.MapKey

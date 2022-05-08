@@ -1,4 +1,4 @@
-package com.adyen.android.assignment.data
+package com.android.nearby.data
 
 
 /**

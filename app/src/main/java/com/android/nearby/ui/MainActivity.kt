@@ -1,4 +1,4 @@
-package com.adyen.android.assignment.ui
+package com.android.nearby.ui
 
 import android.Manifest
 import android.app.AlertDialog
@@ -17,15 +17,18 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.getSystemService
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.adyen.android.assignment.BuildConfig
-import com.adyen.android.assignment.ui.viewmodel.MainViewModel
-import com.adyen.android.assignment.utils.PermissionUtils
+
+import com.android.nearby.BuildConfig
+import com.android.nearby.R
+import com.android.nearby.databinding.ActivityMainBinding
+import com.android.nearby.databinding.AlertDialogBinding
+import com.android.nearby.ui.viewmodel.MainViewModel
+import com.android.nearby.utils.PermissionUtils
+
 import com.google.android.gms.location.FusedLocationProviderClient
 import dagger.android.AndroidInjection
 import javax.inject.Inject
-import com.adyen.android.assignment.R
-import com.adyen.android.assignment.databinding.ActivityMainBinding
-import com.adyen.android.assignment.databinding.AlertDialogBinding
+
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.tasks.CancellationTokenSource
 import com.google.android.gms.tasks.Task

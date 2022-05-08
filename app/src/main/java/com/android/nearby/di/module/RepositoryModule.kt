@@ -1,7 +1,8 @@
-package com.adyen.android.assignment.di.module
+package com.android.nearby.di.module
 
-import com.adyen.android.assignment.data.PlacesRepository
-import com.adyen.android.assignment.data.Repository
+
+import com.android.nearby.data.PlacesRepository
+import com.android.nearby.data.Repository
 import dagger.Binds
 import dagger.Module
 
